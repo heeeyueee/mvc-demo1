@@ -1,0 +1,21 @@
+
+@keyframes change {
+  0% {
+    background: #2e2e2e;;
+  }
+  100% {
+    background: rgb(27, 27, 95);
+  }
+}
+ .circle {
+
+    margin-top: 5vh;
+    margin-left: 5vw;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  border: 1px solid blue;
+}
+ .circle.active{
+  animation: change 1s infinite alternate linear;
+}
